@@ -177,3 +177,37 @@ body * {
   footer a:hover {
     color:var(--stroke-color);
   }
+
+  /* Media  Queries */
+  @media (min-width: 768px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.png);
+
+        url li a ion-icon {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    .light {
+       --bg-url: url(./assets/bg-desktop-light.jpg); 
+    }
+  }
+
+  /* Animation */
+  @keyframes slide-back {
+    from{
+        left: 50%
+    }
+    to {
+        left: 0;
+    }
+  }
+
+  @keyframes slide-in {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+  }
