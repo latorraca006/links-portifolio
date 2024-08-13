@@ -14,7 +14,7 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar.png");
     img.setAttribute(
       "alt",
-      "Foto de Amanda Latorraca, foto de princesa./assets/avatar.png"
+      "Foto de Amanda Latorraca, foto de princesa Elena"
     );
   }
 }
